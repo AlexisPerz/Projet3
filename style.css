@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+}
+header{
+	background-color: darkgreen;
+	color: orange;
+	text-align: center;
+	padding: 10px;
+}
+h1{
+	font-size: 3em;
+}
+main{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+.row{
+	display: flex;
+	height: 600px;
+}
+.menu{
+	width: 40%;
+	margin: 5%;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+footer{
+	background-color: darkgreen;
+	color: orange;
+	position: fixed;
+	bottom: 0;
+	padding: 15px;
+	width: 100%;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+	margin-right: 25px;
+}
