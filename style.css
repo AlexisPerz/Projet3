@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stoke&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 body{
 	margin: 0;
 }
 header{
-	background-color: darkgreen;
-	color: orange;
+	background-color: #579c87;
+	color: 	#fdcb46;
 	text-align: center;
 	padding: 10px;
+	font-family: 'Balsamiq Sans', cursive;
 }
 h1{
 	font-size: 3em;
@@ -15,22 +24,117 @@ main{
 	margin: auto;
 	text-align: center;
 }
+.text_menu{
+	font-family: 'Balsamiq Sans', cursive;
+}
 .row{
 	display: flex;
 	height: 600px;
 }
-.menu{
+.menu1a{
 	width: 40%;
 	margin: 5%;
-	box-shadow: 1px 1px 1px 1px grey;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+	padding-top: 10%;
+	background-color: #fcdfdb;
+}
+.fa{
+	background: linear-gradient(to right, #f05560 0%, #f78f6a 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.la_note{
+	font-size: 2rem;
+	color: #42181e;
+	font-family: 'Ma Shan Zheng', cursive;
+}
+.menu1{
+	font-size: 3rem;
+	color: #42181e;
+	font-family: 'Sriracha', cursive;
+	margin-top: -5px;
+}
+.menu2a{
+	width: 40%;
+	margin: 5%;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+	padding-top: 15%;
+	background-color: #fff5fe;
+}
+.le_chic{
+	font-size: 1.5rem;
+	background: linear-gradient(to right, #c77412 0%, #9460fb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Stoke', serif;
+}
+.menu2{
+	font-size: 3rem;
+	color: #c77412;
+	font-family: 'Roboto Slab', serif;
+}
+.menu3a{
+	width: 40%;
+	margin: 5%;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+	padding-top: 15%;
+	background-color: #f9f9f9;
+}
+.le_delice{
+	font-size: 2rem;
+	font-family: 'Dancing Script', cursive;
+	background: linear-gradient(to right, #1b46e2 0%, #2d98fb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.menu3{
+	font-size: 4rem;
+	color: #2d98fb;
+	font-family: 'Caveat', cursive;
+	margin-top: -5px;
+}
+.menu4a{
+	width: 40%;
+	margin: 5%;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+	padding-top: 15%;
+	background-color: #fdfffd;
+}
+.la_palette{
+	font-size: 2rem;
+	font-family: 'Kaushan Script', cursive;
+	background: linear-gradient(to right, #7dc463 0%, #d4ffaa 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.menu4{
+	font-size: 4rem;
+	color: #7dc463;
+	font-family: 'Caveat', cursive;
+	margin-top: -5px;
+}
+.row1{
+	display: flex;
+	height: 400px;
+	margin-top: -100px;
+}
+.texte{
+	background-color: #579c87;
+	color: #fdcb46;
+	padding: 0 70px 0 70px;
+	font-size: 30px;
+	margin: auto;
+	border-radius: 10px;
+	font-family: 'Balsamiq Sans', cursive;
 }
 footer{
-	background-color: darkgreen;
-	color: orange;
+	background-color: #579c87;
+	color: #fdcb46;
 	position: fixed;
 	bottom: 0;
 	padding: 15px;
 	width: 100%;
+	font-family: 'Balsamiq Sans', cursive;
 }
 .left{
 	float: left;
@@ -38,4 +142,413 @@ footer{
 .right{
 	float: right;
 	margin-right: 25px;
+}
+a{
+	color: #fdcb46;
+	text-decoration: none;
+}
+.projet__menu1{
+	margin-bottom: 100px;
+	background-color: #fcdfdb;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+}
+.projet-menu1__content{
+	padding: 50px 10% 50px 10%;
+}
+.prelude, .orgue, .mouvement{
+	color: #42181e;
+}
+.projet__menu2{
+	margin-bottom: 100px;
+	background-color: #fff5fe;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+}
+.projet-menu2__content{
+	padding: 50px 10% 50px 10%;
+}
+.appetit{
+	color: #ce8735;
+}
+.papilles{
+	color: #b078a5;
+}
+.gourmandises{
+	color: #957ad9;
+}
+.projet__menu3{
+	margin-bottom: 100px;
+	background-color: #f9f9f9;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+}
+.projet-menu3__content{
+	padding: 50px 10% 50px 10%;
+}
+.commencer, .continuer, .terminer{
+	color: black;
+}
+.projet__menu4{
+	margin-bottom: 100px;
+	background-color: #fdfffd;
+	box-shadow: 1px 1px 10px 0 #E0E0E0;
+}
+.projet-menu4__content{
+	padding: 50px 10% 50px 10%;
+}
+.esquisse, .oeuvre, .art{
+	color: black;
+}
+.menu_{
+	text-align: left;
+}
+.prix{
+	text-align: right;
+	margin-top: -40px;
+}
+.notemusic{
+	margin-left: -270px;
+	margin-bottom: -65px;
+}
+.sub_title{
+	display: flex;
+	
+}
+.sub_title_bar1, .sub_title_bar2{
+	width: 35%;
+	border-bottom: 4px solid #42181e;
+	margin-bottom: 26px;
+}
+.sub_title_text{
+	width: 30%;
+}
+.sub_title_text_prelude{
+	 position: relative;
+}
+
+.sub_title_text_prelude:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #42181e;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_prelude:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_orgue{
+	 position: relative;
+}
+
+.sub_title_text_orgue:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #42181e;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_orgue:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_mouvement{
+	 position: relative;
+}
+
+.sub_title_text_mouvement:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #42181e;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_mouvement:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_bar3, .sub_title_bar4{
+	width: 35%;
+	border-bottom: 4px solid #ce8735;
+	margin-bottom: 26px;
+}
+.sub_title_bar5, .sub_title_bar6{
+	width: 35%;
+	border-bottom: 4px solid #b078a5;
+	margin-bottom: 26px;
+}
+.sub_title_bar7, .sub_title_bar8{
+	width: 35%;
+	border-bottom: 4px solid #957ad9;
+	margin-bottom: 26px;
+}
+.sub_title_text_appetit{
+	 position: relative;
+}
+
+.sub_title_text_appetit:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ce8735;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_appetit:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_papilles{
+	 position: relative;
+}
+
+.sub_title_text_papilles:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b078a5;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_papilles:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_gourmandises{
+	 position: relative;
+}
+
+.sub_title_text_gourmandises:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #957ad9;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_gourmandises:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_bar9, .sub_title_bar10{
+	width: 35%;
+	border-bottom: 4px solid #0e32de;
+	margin-bottom: 26px;
+}
+.sub_title_bar11, .sub_title_bar12{
+	width: 35%;
+	border-bottom: 4px solid #0c73f3;
+	margin-bottom: 26px;
+}
+.sub_title_bar13, .sub_title_bar14{
+	width: 35%;
+	border-bottom: 4px solid #4eaff7;
+	margin-bottom: 26px;
+}
+.sub_title_text_commencer{
+	 position: relative;
+}
+
+.sub_title_text_commencer:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0e32de;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_commencer:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_continuer{
+	 position: relative;
+}
+
+.sub_title_text_continuer:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0c73f3;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_continuer:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_terminer{
+	 position: relative;
+}
+
+.sub_title_text_terminer:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4eaff7;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_terminer:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_bar15{
+	width: 35%;
+	background: linear-gradient(to right, #7dc463 0%, #d4ffaa 100%);
+	margin: 25px 0 25px 0;
+}
+.sub_title_bar16{
+	width: 35%;
+	background: linear-gradient(to left, #7dc463 0%, #d4ffaa 100%);
+	margin: 25px 0 25px 0;
+}
+.sub_title_text_esquisse{
+	 position: relative;
+}
+
+.sub_title_text_esquisse:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #7dc463 0%, #d4ffaa 100%);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_esquisse:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_oeuvre{
+	 position: relative;
+}
+
+.sub_title_text_oeuvre:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #7dc463 0%, #d4ffaa 100%);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_oeuvre:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.sub_title_text_art{
+	 position: relative;
+}
+
+.sub_title_text_art:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #7dc463 0%, #d4ffaa 100%);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.sub_title_text_art:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+@keyframes blink {
+    /**
+     * At the start of the animation the dot
+     * has an opacity of .2
+     */
+    0% {
+      opacity: .2;
+    }
+    /**
+     * At 20% the dot is fully visible and
+     * then fades out slowly
+     */
+    20% {
+      opacity: 1;
+    }
+    /**
+     * Until it reaches an opacity of .2 and
+     * the animation can start again
+     */
+    100% {
+      opacity: .2;
+    }
+}
+
+.more span {
+    /**
+     * Use the blink animation, which is defined above
+     */
+    animation-name: blink;
+    /**
+     * The animation should take 1.4 seconds
+     */
+    animation-duration: 1.4s;
+    /**
+     * It will repeat itself forever
+     */
+    animation-iteration-count: infinite;
+    /**
+     * This makes sure that the starting style (opacity: .2)
+     * of the animation is applied before the animation starts.
+     * Otherwise we would see a short flash or would have
+     * to set the default styling of the dots to the same
+     * as the animation. Same applies for the ending styles.
+     */
+    animation-fill-mode: both;
+}
+
+.more span:nth-child(2) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .2s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .2s;
+}
+
+.more span:nth-child(3) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .4s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .4s;
 }
