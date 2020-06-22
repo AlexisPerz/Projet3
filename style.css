@@ -72,6 +72,7 @@ main{
 	font-size: 3rem;
 	color: #c77412;
 	font-family: 'Roboto Slab', serif;
+	margin-top: -5px;
 }
 .menu3a{
 	width: 40%;
@@ -200,9 +201,15 @@ a{
 .menu_{
 	text-align: left;
 }
-.prix{
+.row-item{
+	display:flex;
+}
+.menu-item{
+	width: 96%;
+}
+.prix-item{
+	width: 4%;
 	text-align: right;
-	margin-top: -40px;
 }
 .notemusic{
 	margin-left: -270px;
@@ -489,66 +496,128 @@ a{
   width: 100%;
 }
 @keyframes blink {
-    /**
-     * At the start of the animation the dot
-     * has an opacity of .2
-     */
     0% {
       opacity: .2;
     }
-    /**
-     * At 20% the dot is fully visible and
-     * then fades out slowly
-     */
     20% {
       opacity: 1;
     }
-    /**
-     * Until it reaches an opacity of .2 and
-     * the animation can start again
-     */
     100% {
       opacity: .2;
     }
 }
 
 .more span {
-    /**
-     * Use the blink animation, which is defined above
-     */
     animation-name: blink;
-    /**
-     * The animation should take 1.4 seconds
-     */
     animation-duration: 1.4s;
-    /**
-     * It will repeat itself forever
-     */
     animation-iteration-count: infinite;
-    /**
-     * This makes sure that the starting style (opacity: .2)
-     * of the animation is applied before the animation starts.
-     * Otherwise we would see a short flash or would have
-     * to set the default styling of the dots to the same
-     * as the animation. Same applies for the ending styles.
-     */
     animation-fill-mode: both;
 }
 
 .more span:nth-child(2) {
-    /**
-     * Starts the animation of the third dot
-     * with a delay of .2s, otherwise all dots
-     * would animate at the same time
-     */
     animation-delay: .2s;
 }
 
 .more span:nth-child(3) {
-    /**
-     * Starts the animation of the third dot
-     * with a delay of .4s, otherwise all dots
-     * would animate at the same time
-     */
     animation-delay: .4s;
+}
+
+@media screen and (max-width: 768px) {
+	.row {
+		display: flex;
+		height: 380px;
+	}
+	.menu1 {
+  		font-size: 2rem;
+  		color: #42181e;
+  		font-family: 'Sriracha', cursive;
+   		margin-top: -5px;
+	}
+	.la_note {
+  	  	font-size: 1.5rem;
+  	 	color: #42181e;
+   		font-family: 'Ma Shan Zheng', cursive;
+	}
+	.menu2 {
+    	font-size: 2rem;
+    	color: #c77412;
+    	font-family: 'Roboto Slab', serif;
+    	margin-top: -5px;
+	}
+	.le_chic {
+    	font-size: 1.3rem;
+    	background: linear-gradient(to right, #c77412 0%, #9460fb 100%);
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+    	font-family: 'Stoke', serif;
+	}
+	.menu3 {
+    	font-size: 3rem;
+    	color: #2d98fb;
+    	font-family: 'Caveat', cursive;
+    	margin-top: -5px;
+	}
+	.menu4 {
+    	font-size: 3rem;
+    	color: #7dc463;
+    	font-family: 'Caveat', cursive;
+    	margin-top: -5px;
+	}
+	.la_palette {
+    	font-size: 1.5rem;
+    	font-family: 'Kaushan Script', cursive;
+    	background: linear-gradient(to right, #7dc463 0%, #d4ffaa 100%);
+    	-webkit-background-clip: text;
+   		-webkit-text-fill-color: transparent;
+	}
+	.le_delice {
+    	font-size: 1.5rem;
+    	font-family: 'Dancing Script', cursive;
+    	background: linear-gradient(to right, #1b46e2 0%, #2d98fb 100%);
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+	}
+		.texte {
+    	background-color: #579c87;
+    	color: #fdcb46;
+   		padding: 0 70px 0 70px;
+    	font-size: 25px;
+    	margin: auto;
+    	border-radius: 10px;
+    	font-family: 'Balsamiq Sans', cursive;
+	}	
+}
+
+@media screen and (max-width: 480px) {
+	.texte {
+    	background-color: #579c87;
+    	color: #fdcb46;
+    	padding: 0 70px 0 70px;
+    	font-size: 20px;
+    	margin: auto;
+   		border-radius: 10px;
+    	font-family: 'Balsamiq Sans', cursive;
+	}
+}
+
+.right:hover, .left:hover{ 
+	-webkit-animation-name: wiggle;    
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform-origin: 50% 100%;
+}
+
+@keyframes wiggle {
+   0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -webkit-transform: translate(-1px, -2px) rotate(-2deg); }
+  20% { -webkit-transform: translate(-3px, 0px) rotate(3deg); }
+  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -webkit-transform: translate(2px, 1px) rotate(-2deg); }
+  80% { -webkit-transform: translate(-1px, -1px) rotate(4deg); }
+  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+ 100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
